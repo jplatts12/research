@@ -29,6 +29,6 @@ The parachain validators are themselves selected at random from the set of relay
 
 The idea here is that a fisherman, someone who meets certain criteria, can publish somewhere a claim that a block is incorrect and a proof of that, which may be the entire PoV block.
 
-Then we do not buld on the relay chain block including that parachain header, even if it was finalised by GRANDPA and slash the parachain validators who signed it.
+Then we do not build on the relay chain block including that parachain header, even if it was finalised by GRANDPA and slash the parachain validators who signed it.
 
 There are a number of issues to designing a protocol for this.

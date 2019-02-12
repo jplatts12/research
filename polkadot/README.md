@@ -10,7 +10,7 @@ The research focuses on how to enable having such publicly available system in t
 
 So let us start with abstract state machines. A state machine has a certain state type and state transition type. As the time goes on, state transitions occur.
 
-The data that determines the state transitions is structured as bundles of transactions - individual small state transitions triggered by the users of the system. Each bundle is called a block. In order to achieve its properties, ensures that those blocks are hash connected forming joint data structure.
+The data that determines the state transitions is structured as bundles of transactions - individual small state transitions triggered by the users of the system. Each bundle is called a block. In order to achieve its properties, Polkadot ensures that those blocks are hashed together to form a joint data structure.
 
 ## 1. Specification of the Polkadot Runtime Environment
 

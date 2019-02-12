@@ -1,7 +1,7 @@
 
 # Signing keys in Polkadot
 
-In this post, we shall first give a high level view of the various signing keys planned for use in Polkadot.  We then turn the discussion towards the certificate chain that stretches between staked account keys and the session keys used for our proof-of-stake design.  In other words, we aim to lay out the important questions on the "glue" between keys rolls here, but first this requires introducing the full spectrum of key rolls.
+In this post, we shall first give a high level view of the various signing keys planned for use in Polkadot.  We then turn the discussion towards the certificate chain that stretches between staked account keys and the session keys used for our proof-of-stake design.  In other words, we aim to lay out the important questions on the "glue" between keys roles here, but first this requires introducing the full spectrum of key rolls.
 
 We have roughly four cryptographic layers in Polkadot:
 
